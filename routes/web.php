@@ -28,3 +28,7 @@ Route::get('/halamanutama', function () {
 Route::get('/formkonsumen', function () {
     return view('data.formkonsumen');
 });
+
+Route::get('/tentang', function () {
+    return view('data.tentang');
+});

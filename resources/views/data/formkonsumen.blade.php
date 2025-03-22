@@ -36,7 +36,7 @@
                   <td><span class="d-flex align-items-center gap-2"><i class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                   <td class="text-end">Rp400.000</td>
                   <td><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
-                    <i class="ti ti-dots"></i>
+                    <i class="ti ti-eye"></i>
                 </button>
                 <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
                     <i class="ti ti-trash"></i>
@@ -49,7 +49,7 @@
                   <td><span class="d-flex align-items-center gap-2"><i class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                   <td class="text-end">Rp30.000.000</td>
                   <td><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
-                    <i class="ti ti-dots"></i>
+                    <i class="ti ti-eye"></i>
                 </button>
                 <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
                     <i class="ti ti-trash"></i>
@@ -62,7 +62,7 @@
                   <td><span class="d-flex align-items-center gap-2"><i class="fas fa-circle text-success f-10 m-r-5"></i>Approved</span></td>
                   <td class="text-end">Rp 35.500.000</td>
                   <td><button type="button" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
-                    <i class="ti ti-dots"></i>
+                    <i class="ti ti-eye"></i>
                 </button>
                 <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
                     <i class="ti ti-trash"></i>

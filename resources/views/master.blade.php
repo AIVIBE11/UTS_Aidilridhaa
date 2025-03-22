@@ -57,6 +57,12 @@
               <span class="pc-mtext">Form Konsumen</span>
             </a>
           </li>
+          <li class="pc-item">
+            <a href="/tentang" class="pc-link">
+              <span class="pc-micon"><i class="ti ti-info-circle"></i></span>
+              <span class="pc-mtext">Tentang</span>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
