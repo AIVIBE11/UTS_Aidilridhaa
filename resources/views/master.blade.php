@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- [Head] start -->
-
+<title>@yield('title')</title>
 <head>
-  <title>Sample Page | Mantis Bootstrap 5 Admin Template</title>
+
   <!-- [Meta] -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
@@ -51,6 +51,12 @@
             <span class="pc-mtext">Dashboard</span>
           </a>
         </li>
+        <li class="pc-item">
+            <a href="/formkonsumen" class="pc-link">
+              <span class="pc-micon"><i class="ti ti-user"></i></span>
+              <span class="pc-mtext">Form Konsumen</span>
+            </a>
+          </li>
       </ul>
     </div>
   </div>
@@ -300,105 +306,7 @@
       <!-- [ breadcrumb ] end -->
 
       <!-- [ Main Content ] start -->
-      <div class="row">
-        <!-- [ sample-page ] start -->
-        <div class="col-sm-12">
-          <div class="card">
-            <div class="card-header">
-              <h5>Ai - Doorsmeer</h5>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                <div class="col-md-6 col-xl-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="mb-2 f-w-400 text-muted">Total Melihat halaman</h6>
-                        <h4 class="mb-3">4,42,236 <span class="badge bg-light-primary border border-primary"><i
-                              class="ti ti-trending-up"></i> 59.3%</span></h4>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6 col-xl-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="mb-2 f-w-400 text-muted">Total Pengguna</h6>
-                        <h4 class="mb-3">78,250 <span class="badge bg-light-success border border-success"><i
-                              class="ti ti-trending-up"></i> 70.5%</span></h4>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-xl-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="mb-2 f-w-400 text-muted">Total Order</h6>
-                        <h4 class="mb-3">18,800 <span class="badge bg-light-warning border border-warning"><i
-                              class="ti ti-trending-down"></i> 27.4%</span></h4>
-
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6 col-xl-3">
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="mb-2 f-w-400 text-muted">Total Keuntungan</h6>
-                        <h4 class="mb-3">Rp 1.000.000 <span class="badge bg-light-danger border border-danger"><i
-                              class="ti ti-trending-down"></i> 27.4%</span></h4>
-
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-xl-8">
-                    <div class="d-flex align-items-center justify-content-between mb-3">
-                      <h5 class="mb-0">Unique Visitor</h5>
-                      <ul class="nav nav-pills justify-content-end mb-0" id="chart-tab-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="chart-tab-home-tab" data-bs-toggle="pill" data-bs-target="#chart-tab-home"
-                            type="button" role="tab" aria-controls="chart-tab-home" aria-selected="true">Month</button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="chart-tab-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#chart-tab-profile" type="button" role="tab" aria-controls="chart-tab-profile"
-                            aria-selected="false">Week</button>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="card">
-                      <div class="card-body">
-                        <div class="tab-content" id="chart-tab-tabContent">
-                          <div class="tab-pane" id="chart-tab-home" role="tabpanel" aria-labelledby="chart-tab-home-tab"
-                            tabindex="0">
-                            <div id="visitor-chart-1"></div>
-                          </div>
-                          <div class="tab-pane show active" id="chart-tab-profile" role="tabpanel"
-                            aria-labelledby="chart-tab-profile-tab" tabindex="0">
-                            <div id="visitor-chart"></div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-12 col-xl-4">
-                    <h5 class="mb-3">Income Overview</h5>
-                    <div class="card">
-                      <div class="card-body">
-                        <h6 class="mb-2 f-w-400 text-muted">This Week Statistics</h6>
-                        <h3 class="mb-3">$7,650</h3>
-                        <div id="income-overview-chart"></div>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-
-          </div>
-        </div>
-        <!-- [ sample-page ] end -->
-      </div>
+      @yield('konten')
       <!-- [ Main Content ] end -->
     </div>
   </div>
